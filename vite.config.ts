@@ -6,7 +6,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '');
 
   return {
-    base: '/REPO_NAME/',
+    base: '/valentine-bear-matcha-hunt/',
 
     server: {
       port: 3000,
